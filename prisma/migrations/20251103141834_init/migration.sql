@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE "Livro" (
+CREATE TABLE "livros" (
     "id" SERIAL NOT NULL,
     "titulo" TEXT,
     "genero" TEXT,
@@ -7,5 +7,5 @@ CREATE TABLE "Livro" (
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
-    CONSTRAINT "Livro_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "livros_pkey" PRIMARY KEY ("id")
 );
